@@ -4,7 +4,7 @@ Le site public de l'Incubateur de Services Numériques de l'État français.
 
      docker run -d -p 80:5000 --name betagouvfr mcas/betagouvfr:latest
 
-> Ou le construire par exemple avec :
+> Ou le construire par exemple à partir du Dockerfile avec :
 
      docker build -t mcas/betagouvfr .
      docker run -d -p 80:5000 --name betagouvfr mcas/betagouvfr:latest
