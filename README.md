@@ -1,6 +1,6 @@
 Le site public de l'Incubateur de Services Numériques de l'État français.
 
-> Pour exécuter cet environnement avec Docker, il faut exécuter par exemple cette commande :
+> Pour exécuter cet environnement avec Docker, il faut lancer par exemple cette commande :
 
      docker run -d -p 80:5000 --name betagouvfr mcas/betagouvfr
 
