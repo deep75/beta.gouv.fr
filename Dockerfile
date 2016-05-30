@@ -10,4 +10,4 @@ ADD beta.gouv.fr /opt/site/
 
 EXPOSE 4000
 
-CMD jekyll serve --trace --verbose --host 0.0.0.0
+CMD jekyll serve --trace --verbose --host 0.0.0.0 --port 5000
