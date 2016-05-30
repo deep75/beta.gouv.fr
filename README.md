@@ -6,7 +6,7 @@ Le site public de l'Incubateur de Services Numériques de l'État français.
 
 > Ou le construire par exemple avec :
 
-     git clone https://github.com/deep75/beta.gouv.fr
+     git clone https://github.com/deep75/beta.gouv.fr; cd beta.gouv.fr
      docker -t mcas/betagouvfr build .
      docker run -d -p 80:5000 --name betagouvfr mcas/betagouvfr:latest
      
