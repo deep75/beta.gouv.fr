@@ -4,7 +4,7 @@ Le site public de l'Incubateur de Services Numériques de l'État français.
 
      docker run -d -p 80:5000 --name betagouvfr mcas/betagouvfr:latest
 
-Ou le construire par :
+> Ou le construire par :
 
      git clone https://github.com/deep75/beta.gouv.fr
      docker -t mcas/betagouvfr build .
